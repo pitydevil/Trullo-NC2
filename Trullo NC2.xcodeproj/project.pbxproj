@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B7D677628927087005645C8 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D677528927087005645C8 /* ApiService.swift */; };
+		4B7D677C28927166005645C8 /* ReminderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D677A28927166005645C8 /* ReminderTableViewCell.swift */; };
+		4B7D677D28927166005645C8 /* ReminderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B7D677B28927166005645C8 /* ReminderTableViewCell.xib */; };
+		4B7D6780289272E0005645C8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D677F289272E0005645C8 /* HomeViewController.swift */; };
+		4B7D6782289278B0005645C8 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D6781289278B0005645C8 /* Reachability.swift */; };
+		4B7D678428927BEB005645C8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D678328927BEB005645C8 /* HomeViewModel.swift */; };
+		4B7D678728927C52005645C8 /* BaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D678628927C52005645C8 /* BaseProvider.swift */; };
+		4B7D678928927E39005645C8 /* ReminderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D678828927E39005645C8 /* ReminderModel.swift */; };
+		4B7D678B2892ADF5005645C8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D678A2892ADF5005645C8 /* DetailViewController.swift */; };
+		4B7D678D2892AEEF005645C8 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D678C2892AEEF005645C8 /* DetailViewModel.swift */; };
+		4BD518EB289267170071EA39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD518EA289267170071EA39 /* AppDelegate.swift */; };
+		4BD518ED289267170071EA39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD518EC289267170071EA39 /* SceneDelegate.swift */; };
+		4BD518F2289267170071EA39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD518F0289267170071EA39 /* Main.storyboard */; };
+		4BD518F5289267170071EA39 /* Trullo_NC2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BD518F3289267170071EA39 /* Trullo_NC2.xcdatamodeld */; };
+		4BD518F7289267180071EA39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BD518F6289267180071EA39 /* Assets.xcassets */; };
+		4BD518FA289267180071EA39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD518F8289267180071EA39 /* LaunchScreen.storyboard */; };
+		4BD51907289267D00071EA39 /* HelperClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD51906289267CF0071EA39 /* HelperClass.swift */; };
+		4BD51909289267D90071EA39 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD51908289267D90071EA39 /* Extension.swift */; };
+		4BD5190B2892689F0071EA39 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD5190A2892689F0071EA39 /* NavigationController.swift */; };
+		EF91DF5D0B2BD82B369D5826 /* Pods_Trullo_NC2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B595D4DD2FB12DD2CDBF2C2 /* Pods_Trullo_NC2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14690B0B5EA8DD558632313F /* Pods-Trullo NC2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trullo NC2.release.xcconfig"; path = "Target Support Files/Pods-Trullo NC2/Pods-Trullo NC2.release.xcconfig"; sourceTree = "<group>"; };
+		4B7D677528927087005645C8 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		4B7D677A28927166005645C8 /* ReminderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderTableViewCell.swift; sourceTree = "<group>"; };
+		4B7D677B28927166005645C8 /* ReminderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReminderTableViewCell.xib; sourceTree = "<group>"; };
+		4B7D677F289272E0005645C8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4B7D6781289278B0005645C8 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		4B7D678328927BEB005645C8 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		4B7D678628927C52005645C8 /* BaseProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseProvider.swift; sourceTree = "<group>"; };
+		4B7D678828927E39005645C8 /* ReminderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderModel.swift; sourceTree = "<group>"; };
+		4B7D678A2892ADF5005645C8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4B7D678C2892AEEF005645C8 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		4BD518E7289267170071EA39 /* Trullo NC2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trullo NC2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BD518EA289267170071EA39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BD518EC289267170071EA39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4BD518F1289267170071EA39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BD518F4289267170071EA39 /* Trullo_NC2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Trullo_NC2.xcdatamodel; sourceTree = "<group>"; };
+		4BD518F6289267180071EA39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BD518F9289267180071EA39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BD518FB289267180071EA39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BD51906289267CF0071EA39 /* HelperClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperClass.swift; sourceTree = "<group>"; };
+		4BD51908289267D90071EA39 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		4BD5190A2892689F0071EA39 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		5B595D4DD2FB12DD2CDBF2C2 /* Pods_Trullo_NC2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trullo_NC2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB87379AC6E1A6B9F368BB84 /* Pods-Trullo NC2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trullo NC2.debug.xcconfig"; path = "Target Support Files/Pods-Trullo NC2/Pods-Trullo NC2.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BD518E4289267170071EA39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF91DF5D0B2BD82B369D5826 /* Pods_Trullo_NC2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2300125092182A77CE289EAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B595D4DD2FB12DD2CDBF2C2 /* Pods_Trullo_NC2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B7D677728927090005645C8 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				4B7D678628927C52005645C8 /* BaseProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		4B7D677E28927182005645C8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4B7D677A28927166005645C8 /* ReminderTableViewCell.swift */,
+				4B7D677F289272E0005645C8 /* HomeViewController.swift */,
+				4B7D678A2892ADF5005645C8 /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4BD518DE289267170071EA39 = {
+			isa = PBXGroup;
+			children = (
+				4BD518E9289267170071EA39 /* Trullo NC2 */,
+				4BD518E8289267170071EA39 /* Products */,
+				AB8283F8E8906A8A9205E5D2 /* Pods */,
+				2300125092182A77CE289EAC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4BD518E8289267170071EA39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BD518E7289267170071EA39 /* Trullo NC2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BD518E9289267170071EA39 /* Trullo NC2 */ = {
+			isa = PBXGroup;
+			children = (
+				4B7D677728927090005645C8 /* Provider */,
+				4BD519012892677F0071EA39 /* Base */,
+				4BD51904289267910071EA39 /* Utils */,
+				4BD519032892678A0071EA39 /* Model */,
+				4B7D677E28927182005645C8 /* Controller */,
+				4BD51905289267A30071EA39 /* View */,
+				4BD51902289267820071EA39 /* ViewModel */,
+				4BD518FB289267180071EA39 /* Info.plist */,
+				4BD518F3289267170071EA39 /* Trullo_NC2.xcdatamodeld */,
+			);
+			path = "Trullo NC2";
+			sourceTree = "<group>";
+		};
+		4BD519012892677F0071EA39 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4BD518EA289267170071EA39 /* AppDelegate.swift */,
+				4BD518EC289267170071EA39 /* SceneDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		4BD51902289267820071EA39 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4B7D678328927BEB005645C8 /* HomeViewModel.swift */,
+				4B7D678C2892AEEF005645C8 /* DetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4BD519032892678A0071EA39 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B7D678828927E39005645C8 /* ReminderModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4BD51904289267910071EA39 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4BD51906289267CF0071EA39 /* HelperClass.swift */,
+				4BD51908289267D90071EA39 /* Extension.swift */,
+				4BD5190A2892689F0071EA39 /* NavigationController.swift */,
+				4B7D677528927087005645C8 /* ApiService.swift */,
+				4B7D6781289278B0005645C8 /* Reachability.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4BD51905289267A30071EA39 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4BD518F0289267170071EA39 /* Main.storyboard */,
+				4BD518F6289267180071EA39 /* Assets.xcassets */,
+				4BD518F8289267180071EA39 /* LaunchScreen.storyboard */,
+				4B7D677B28927166005645C8 /* ReminderTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB8283F8E8906A8A9205E5D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB87379AC6E1A6B9F368BB84 /* Pods-Trullo NC2.debug.xcconfig */,
+				14690B0B5EA8DD558632313F /* Pods-Trullo NC2.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BD518E6289267170071EA39 /* Trullo NC2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BD518FE289267180071EA39 /* Build configuration list for PBXNativeTarget "Trullo NC2" */;
+			buildPhases = (
+				74B54B3256AE9B740F3E5CBD /* [CP] Check Pods Manifest.lock */,
+				4BD518E3289267170071EA39 /* Sources */,
+				4BD518E4289267170071EA39 /* Frameworks */,
+				4BD518E5289267170071EA39 /* Resources */,
+				1D142CB57BA967346EFBAE16 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trullo NC2";
+			productName = "Trullo NC2";
+			productReference = 4BD518E7289267170071EA39 /* Trullo NC2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BD518DF289267170071EA39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					4BD518E6289267170071EA39 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 4BD518E2289267170071EA39 /* Build configuration list for PBXProject "Trullo NC2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BD518DE289267170071EA39;
+			productRefGroup = 4BD518E8289267170071EA39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BD518E6289267170071EA39 /* Trullo NC2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BD518E5289267170071EA39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD518FA289267180071EA39 /* LaunchScreen.storyboard in Resources */,
+				4BD518F7289267180071EA39 /* Assets.xcassets in Resources */,
+				4BD518F2289267170071EA39 /* Main.storyboard in Resources */,
+				4B7D677D28927166005645C8 /* ReminderTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D142CB57BA967346EFBAE16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trullo NC2/Pods-Trullo NC2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trullo NC2/Pods-Trullo NC2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trullo NC2/Pods-Trullo NC2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74B54B3256AE9B740F3E5CBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trullo NC2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BD518E3289267170071EA39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD51907289267D00071EA39 /* HelperClass.swift in Sources */,
+				4B7D678428927BEB005645C8 /* HomeViewModel.swift in Sources */,
+				4BD5190B2892689F0071EA39 /* NavigationController.swift in Sources */,
+				4BD518EB289267170071EA39 /* AppDelegate.swift in Sources */,
+				4BD51909289267D90071EA39 /* Extension.swift in Sources */,
+				4BD518ED289267170071EA39 /* SceneDelegate.swift in Sources */,
+				4B7D6780289272E0005645C8 /* HomeViewController.swift in Sources */,
+				4B7D677628927087005645C8 /* ApiService.swift in Sources */,
+				4BD518F5289267170071EA39 /* Trullo_NC2.xcdatamodeld in Sources */,
+				4B7D678928927E39005645C8 /* ReminderModel.swift in Sources */,
+				4B7D6782289278B0005645C8 /* Reachability.swift in Sources */,
+				4B7D677C28927166005645C8 /* ReminderTableViewCell.swift in Sources */,
+				4B7D678728927C52005645C8 /* BaseProvider.swift in Sources */,
+				4B7D678D2892AEEF005645C8 /* DetailViewModel.swift in Sources */,
+				4B7D678B2892ADF5005645C8 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4BD518F0289267170071EA39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BD518F1289267170071EA39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BD518F8289267180071EA39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BD518F9289267180071EA39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BD518FC289267180071EA39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BD518FD289267180071EA39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BD518FF289267180071EA39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB87379AC6E1A6B9F368BB84 /* Pods-Trullo NC2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38437W4ZU8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Trullo NC2/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "monitoring-project.Trullo-NC2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BD51900289267180071EA39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14690B0B5EA8DD558632313F /* Pods-Trullo NC2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38437W4ZU8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Trullo NC2/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "monitoring-project.Trullo-NC2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BD518E2289267170071EA39 /* Build configuration list for PBXProject "Trullo NC2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BD518FC289267180071EA39 /* Debug */,
+				4BD518FD289267180071EA39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BD518FE289267180071EA39 /* Build configuration list for PBXNativeTarget "Trullo NC2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BD518FF289267180071EA39 /* Debug */,
+				4BD51900289267180071EA39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4BD518F3289267170071EA39 /* Trullo_NC2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4BD518F4289267170071EA39 /* Trullo_NC2.xcdatamodel */,
+			);
+			currentVersion = 4BD518F4289267170071EA39 /* Trullo_NC2.xcdatamodel */;
+			path = Trullo_NC2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4BD518DF289267170071EA39 /* Project object */;
+}
